@@ -36,7 +36,7 @@ const Container = () => {
         <li><a href="https://gelecegiyazanlar.turkcell.com.tr/certificate/dWlkMjc4ODE2Y2lkNDg0MDBxaWQxNjhlbmQ="
           target="_blank">Türkcell Geleceği Yazanlar-ASP.NET</a></li>
       </ul>
-      <p>(Sertifika detayları için Sertifikaya tıklayınız ..)</p>
+      <p>Sertifika detayları için Sertifikaya tıklayınız..</p>
     </div>
   );
 };
