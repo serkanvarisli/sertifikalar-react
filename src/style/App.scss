@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+a {
+  color: #0070f3;
+}
+main {
+  padding: 20px;
+}
+
+section {
+  margin: auto;
+}
+li{
+  list-style: none;
+  padding: 10px;
+}
+a:hover {
+  text-decoration: underline;
+  color: #0070f3;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.dark {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+    .footer{
+      color:rgba(255, 255, 255, 0.87);
+      ;
+    }
+    a{
+      color:rgba(255, 255, 255, 0.87);
+      ;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #0070f3;
+    }
+}
+
+.light {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+  .footer{
+    color: #242424;
+  }
+  a{
+    color:#242424;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0070f3;
+  }
+  .MuiButton-outlinedPrimary{
+    color: #242424 !important;
+    border-color:#242424 !important;
+    font-size: small !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.image {
+  width: 40px;
+  position: fixed;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
+  justify-content: right;
+  align-items: right;
+  position: absolute;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  color: rgb(255, 255, 255,0.87);
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  height: 20px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 20%;
+  }
+}
+.MuiButton-outlinedPrimary{
+  color: rgba(255, 255, 255, 0.87) !important;
+  border-color: rgba(255, 255, 255, 0.87) !important;
+  font-size: small !important;
+  margin-bottom: 20px !important;
+}
