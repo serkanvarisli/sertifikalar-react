@@ -1,10 +1,13 @@
 import React from "react";
+import { Typography } from "@mui/material";
 
 const Header = () => {
   return (
     <div>
       <div>
-        <h1>SERTİFİKALAR</h1>
+        <Typography variant="h5" style={{
+
+        }}>SERKAN VARIŞLI - ALANINDA UZMANLAŞMIŞ SERTİFİKALARIM</Typography>
         <hr />
       </div>
     </div>

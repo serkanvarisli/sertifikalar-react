@@ -1,28 +1,10 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-h1 {
-  font-size: 3em;
-}
-h2{
-  font-size: 2em;
-}
-a {
-  color: #0070f3;
-}
-main {
-  padding: 20px;
-}
 
 section {
   margin: auto;
 }
 li{
   list-style: none;
-  padding: 10px;
+  padding: 5px;
 }
 a:hover {
   text-decoration: underline;
@@ -34,19 +16,11 @@ a{
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
-.container {
-  margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -104,7 +78,7 @@ a{
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color: gray;
+  background-color: transparent;
   color: rgb(255, 255, 255,0.87);
   text-align: center;
   font-family: 'Antic Slab', serif;
